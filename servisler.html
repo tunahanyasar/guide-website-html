@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Servisler</title>
+
+    <!-- Fav icon eklendi -->
+    <link rel="icon" type="image/x-icon" href="./img/favicon-16x16.png">
+
+    <!-- CSS Özellikleri -->
+    <style>
+        /* Body Style */
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #d2c4c4;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: flex-start;
+        min-height: 100vh;
+      }
+
+      /* Header Style */
+      header {
+        background-color: #333;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 20px 5%; /* Üstten ve alttan daha fazla boşluk */
+      }
+      header h1 {
+        color: aliceblue;
+        font-family: monospace;
+        margin-left: 20px;
+      }
+
+      /* Footer Style */
+      footer {
+        position: relative;
+        width: 100%;
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px 0; /* Footer ile içerik arasındaki boşluk arttırıldı */
+        margin-top: auto; /* Footer'ı sayfa altına sabitler */
+      }
+
+      /* Logo Style */
+      .logo {
+        display: flex;
+        align-items: center;
+      }
+      .logo img {
+        width: 100px;
+        height: 100px;
+        margin-left: 70px;
+      }
+
+      /* Menü Style */
+      nav {
+        display: flex;
+        gap: 20px;
+      }
+      header nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 10px 15px;
+        transition: 0.3s;
+      }
+      header nav ul li {
+        display: inline-block;
+        margin-left: 50px;
+      }
+      header nav li a:hover {
+        background-color: #555;
+        border-radius: 5px;
+      }
+
+      /* Info Box Style */
+      .info-box {
+        background-color: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        max-width: 600px;
+        text-align: left;
+        line-height: 1.6;
+        font-size: 18px;
+        color: #333;
+        margin-top: 30px;
+        width: 90%;
+        margin-bottom: 30px; /* Paragraflar arasındaki boşluğu artırdım */
+      }
+
+      .info-box strong {
+        color: #0073e6;
+      }
+
+    /* Main Style */
+      main {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 30px;
+  padding: 0 5%;
+  padding-bottom: 30px; 
+}
+
+     /* Aside Style */
+      aside {
+        width: 30%;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      }
+      aside h2 {
+        color: #333;
+      }
+      aside nav h3 {
+        color: #0073e6;
+      }
+      aside nav ul {
+        list-style: none;
+        padding-left: 0;
+      }
+      aside nav ul li {
+        margin-bottom: 10px;
+      }
+      aside nav ul li a {
+        text-decoration: none;
+        color: #0073e6;
+      }
+      aside nav ul li a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+<!-- BODY KISMI -->
+  <body>
+    <header>
+      <!-- Logo -->
+      <div class="logo">
+        <img src="./img/web-logo (2).png" alt="Soft Knowledge Logo" />
+        <h1>Soft Knowledge</h1>
+      </div>
+
+      <!-- Navigasyon Menüsü -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Anasayfa</a></li>
+          <li><a href="hakkinda.html">Hakkında</a></li>
+          <li><a href="servisler.html">Servisler</a></li>
+          <li style="margin-right: 100px;">
+            <a href="iletisim.html">İletişim</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Kısmı -->
+    <main>
+        <!-- Section Kısmı -->
+      <section>
+        <div class="info-box">
+          <p>
+            <b> Ekleme yapılacak:</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque deserunt dolorum deleniti, exercitationem officia quam asperiores ab iusto rem vero error repudiandae enim architecto, illo quaerat facere quo nihil inventore.
+          </p>
+        </div>
+        <div class="info-box">
+          <p>
+            <b> Ekleme yapılacak:</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque deserunt dolorum deleniti, exercitationem officia quam asperiores ab iusto rem vero error repudiandae enim architecto, illo quaerat facere quo nihil inventore.
+          </p>
+        </div>
+        <div class="info-box">
+          <p>
+            <b> Ekleme yapılacak:</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque deserunt dolorum deleniti, exercitationem officia quam asperiores ab iusto rem vero error repudiandae enim architecto, illo quaerat facere quo nihil inventore.
+          </p>
+        </div>
+      </section>
+
+      <!-- Aside Kısmı -->
+      <aside>
+        <h2>Projeler: <i>Ekleme Yapılacak</i></h2>
+        <nav>
+          <h3>Proje 1</h3>
+          <ul>
+            <li><a href="#">HTML Nedir?</a></li>
+            <li><a href="#">HTML Sayfa Tasarımı</a></li>
+          </ul>
+        </nav>
+        <nav>
+          <h3>Proje 2</h3>
+          <ul>
+            <li><a href="#">CSS Nedir?</a></li>
+            <li><a href="#">CSS Sayfa Tasarımı</a></li>
+          </ul>
+        </nav>
+        <nav>
+          <h3>Proje 3</h3>
+          <ul>
+            <li><a href="#">CSS Nedir?</a></li>
+            <li><a href="#">CSS Sayfa Tasarımı</a></li>
+          </ul>
+        </nav>
+        <nav>
+          <h3>Proje 4</h3>
+          <ul>
+            <li><a href="#">CSS Nedir?</a></li>
+            <li><a href="#">CSS Sayfa Tasarımı</a></li>
+          </ul>
+        </nav>
+      </aside>
+    </main>
+
+    <!-- Footer Kısmı -->
+    <footer>
+      &#9400 Soft Knowledge tüm hakları saklıdır.
+    </footer>
+  </body>
+</html>

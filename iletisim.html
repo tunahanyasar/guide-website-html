@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fav icon eklendi -->
+    <title>İletişim</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicon-16x16.png" />
+
+    <!-- CSS Özellikleri -->
+    <style>
+      /* Body Style */
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #d2c4c4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        min-height: 100vh;
+      }
+
+      /* Header Style */
+      header {
+        background-color: #333;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 20px 5%; /* Üstten ve alttan daha fazla boşluk */
+      }
+
+      footer {
+        position: relative;
+        width: 100%;
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px 0; /* Footer ile içerik arasındaki boşluk arttırıldı */
+        margin-top: auto; /* Footer'ı sayfa altına sabitler */
+      }
+
+      /* Logo Style */
+      .logo {
+        display: flex;
+        align-items: center;
+      }
+      .logo img {
+        width: 100px;
+        height: 100px;
+        margin-left: 70px;
+      }
+
+      /* Menü Style */
+      nav {
+        display: flex;
+        gap: 20px;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 10px 15px;
+        transition: 0.3s;
+      }
+      nav ul li {
+        display: inline-block;
+        margin-left: 50px;
+      }
+      nav li a:hover {
+        background-color: #555;
+        border-radius: 5px;
+      }
+      header h1 {
+        color: aliceblue;
+        font-family: monospace;
+        margin-left: 20px;
+      }
+
+      /* Info Box Style */
+      .info-box {
+        background-color: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        max-width: 600px;
+        text-align: left;
+        line-height: 1.6;
+        font-size: 18px;
+        color: #333;
+        margin-top: 30px;
+        width: 90%;
+        margin-bottom: 30px; /* Paragraflar arasındaki boşluğu artırdım */
+      }
+
+      /* Main ve Section Style */
+      main {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 30px 0;
+      }
+      section {
+        flex: 2;
+        padding: 20px;
+      }
+
+      /* Aside Style */
+      aside {
+        flex: 1;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        text-align: left;
+      }
+      aside {
+        max-width: 600px;
+        margin: auto;
+      }
+      aside h2 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      aside ul {
+        list-style: none;
+        padding: 0;
+      }
+      aside ul li {
+        margin-bottom: 15px;
+      }
+      aside ul li a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      aside ul li a img {
+        width: 32px;
+        height: 32px;
+      }
+      aside div {
+        margin-top: 20px;
+        text-align: center;
+      }
+      aside div iframe {
+        width: 100%;
+        height: 400px;
+        border: 0;
+        border-radius: 10px;
+      }
+      aside img {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+      }
+      iframe {
+        width: 100%;
+        height: 200px;
+      }
+
+      /* Form Style */
+      form div {
+        margin-bottom: 15px;
+      }
+      input,
+      textarea {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      button {
+        background-color: #0073e6;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      button:hover {
+        background-color: #005bb5;
+      }
+    </style>
+  </head>
+
+  <!-- BODY KISMI -->
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./img/web-logo (2).png" alt="Soft Knowledge Logo" />
+        <h1>Soft Knowledge</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Anasayfa</a></li>
+          <li><a href="hakkinda.html">Hakkında</a></li>
+          <li><a href="servisler.html">Servisler</a></li>
+          <li style="margin-right: 100px">
+            <a href="iletisim.html">İletişim</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Kısmı -->
+    <main>
+      <!-- Section Kısmı -->
+      <section>
+        <div class="info-box">
+          <form action="#">
+            <h3>Projeniz için destek alın:</h3>
+            <div>
+              <label for="name">İsim:</label>
+              <input type="text" id="name" required autofocus autocomplete="additional-name"/>
+            </div>
+            <div>
+              <label for="surname">Soyisim:</label>
+              <input type="text" id="surname" required />
+            </div>
+            <div>
+              <label for="mail">E-Mail:</label>
+              <input
+                type="email"
+                name="mail"
+                id="mail"
+                placeholder="ornek@example.com"
+                required
+              />
+            </div>
+            <div>
+              <label for="tel">Telefon:</label>
+              <input type="tel" id="phone" name="phone" 
+              pattern="0[5][0-9]{9}" 
+              inputmode="numeric"
+              placeholder="05XXXXXXXXX" 
+              maxlength="11" 
+              title="Zorulu Değil!"
+            >
+            </div>
+            <div>
+              <label for="message">Projeniz Hakkında:</label>
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Mesajınızı buraya yazınız."
+                rows="5"
+              ></textarea>
+            </div>
+            <div>
+              <button type="submit">Gönder</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- Aside Kısmı -->
+      <aside>
+        <h2>Detaylı İletişim</h2>
+        <ul>
+          <li>
+            <a href="mailto:tnhnysr@gmail.com" target="_blank">
+              <img src="./img/mail-icon.png" alt="mail-icon" />
+              <span>tnhnysr@gmail.com</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/tunahan-yasar/"
+              target="_blank"
+            >
+              <img src="./img/linkdn-icon.webp" alt="linkedin-icon" />
+              <span>tunahan-yasar</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/tunahanyasar" target="_blank">
+              <img src="./img/git-icon.png" alt="git-icon" />
+              <span>tunahanyasar</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank">
+              <img src="./img/insta.webp" alt="instagram" />
+              <span>Instagram</span>
+            </a>
+          </li>
+          <li>
+            <a href="tel:+900000000000">
+              <img src="./img/telefon.webp" alt="telefon-icon" />
+              <span>+90 000 000 00 00</span>
+            </a>
+          </li>
+        </ul>
+        <div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48187.25893654658!2d28.6054333506009!3d40.987968906733165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b55fc19deb0b3b%3A0xdf4ea093f30983c6!2zQmV5bGlrZMO8esO8L8Swc3RhbmJ1bA!5e0!3m2!1str!2str!4v1738681966971!5m2!1str!2str"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+      </aside>
+    </main>
+
+    <!-- Footer Kısmı -->
+    <footer>&#9400; Soft Knowledge tüm hakları saklıdır.</footer>
+  </body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hakkında</title>
+
+    <!-- Fav icon eklendi -->
+    <link rel="icon" type="image/x-icon" href="./img/favicon-16x16.png" />
+
+    <!-- CSS Özellikleri -->
+    <style>
+      /* Body Style */
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #d2c4c4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        min-height: 100vh;
+      }
+
+      /* Header Style */
+      header {
+        background-color: #333;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 20px 5%; /* Üstten ve alttan daha fazla boşluk */
+      }
+      header h1 {
+        color: aliceblue;
+        font-family: monospace;
+        margin-left: 20px;
+      }
+
+      /* Footer Style */
+      footer {
+        position: relative;
+        width: 100%;
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px 0; /* Footer ile içerik arasındaki boşluk arttırıldı */
+        margin-top: auto; /* Footer'ı sayfa altına sabitler */
+      }
+
+      /* Logo Style */
+      .logo {
+        display: flex;
+        align-items: center;
+      }
+      .logo img {
+        width: 100px;
+        height: 100px;
+        margin-left: 70px;
+      }
+
+      /* Menü Style */
+      nav {
+        display: flex;
+        gap: 20px;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 10px 15px;
+        transition: 0.3s;
+      }
+      nav ul li {
+        display: inline-block;
+        margin-left: 50px;
+      }
+      nav li a:hover {
+        background-color: #555;
+        border-radius: 5px;
+      }
+
+      /* Info Box Style */
+      .info-box {
+        background-color: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        max-width: 600px;
+        text-align: left;
+        line-height: 1.6;
+        font-size: 18px;
+        color: #333;
+        margin-top: 30px;
+        width: 90%;
+        margin-bottom: 30px; /* Paragraflar arasındaki boşluğu artırdım */
+      }
+
+      .info-box strong {
+        color: #0073e6;
+      }
+    </style>
+  </head>
+
+  <!-- BODY KISMI -->
+  <body>
+    <header>
+      <!-- Logo -->
+      <div class="logo">
+        <img src="./img/web-logo (2).png" alt="Soft Knowledge Logo" />
+        <h1>Soft Knowledge</h1>
+      </div>
+
+      <!-- Navigasyon Menüsü -->
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Anasayfa</a>
+          </li>
+          <li>
+            <a href="hakkinda.html">Hakkında</a>
+          </li>
+          <li>
+            <a href="servisler.html">Servisler</a>
+          </li>
+          <li style="margin-right: 100px">
+            <a href="iletisim.html">İletişim</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Section Kısmı -->
+    <section>
+      <div class="info-box">
+        <!-- hakkımda bölümü -->
+        <h2>Hakkımda:</h2>
+        <p>
+          2000 doğumlu ve İstanbul'da ikamet eden bir yazılım geliştiricisiyim.
+          <b>Bilgisayar Programcılığı</b> bölümünden mezun olduktan sonra,
+          çeşitli sektörlerde edindiğim deneyimlerimle birlikte, yazılım
+          dünyasına yeniden adım attım. <b>Frontend Web Development</b> alanında
+          derinlemesine bilgi ve beceri edinmeye karar vererek, bu alandaki
+          kariyerime yoğunlaştım. Teknolojinin hızla evrildiği günümüzde,
+          sürekli olarak kendimi geliştirmek ve sektördeki yeniliklere ayak
+          uydurmak için azimle çalışıyorum.
+        </p>
+      </div>
+
+      <!-- misyon bölümü -->
+      <div class="info-box">
+        <h2>Misyon:</h2>
+        <p>
+          Güncel web teknolojilerini yakından takip ederek, kullanıcı deneyimini
+          en ön planda tutan, modern ve işlevsel arayüzler tasarlamaya
+          odaklanıyorum. Her projeye, kullanıcının ihtiyaçlarını merkeze alan
+          bir perspektifle yaklaşarak, estetik ve fonksiyonellik dengesini
+          sağlıyorum. Analitik düşünme yeteneğim ve yeniliklere açık vizyonum
+          sayesinde, profesyonel becerilerimi sürekli olarak geliştiriyor ve her
+          projede daha da ileriye taşımayı hedefliyorum.
+          <b> Kullanıcı dostu ve erişilebilir </b>web deneyimleri yaratmak,
+          temel amacım olmuştur.
+        </p>
+      </div>
+
+      <!-- vizyon bölümü -->
+      <div class="info-box">
+        <h2>Vizyon:</h2>
+        <p>
+          Oluşturduğum bu platform üzerinden benimle iletişime geçebilirsiniz.
+          Şu an için küçük ölçekli web tasarım projelerinde, fikirlerinizi
+          gerçeğe dönüştürmek adına size yardımcı olabilirim. Tasarım süreci
+          hakkında belirli bir fikriniz varsa, bunu kabaca bir taslak halinde
+          benimle paylaşabilirsiniz. Yaratıcı ve profesyonel bir yaklaşım ile,
+          sizin için en uygun çözümü geliştirmek adına birlikte çalışmaktan
+          memnuniyet duyarım.
+          <strong
+            ><a href="./iletisim.html" style="text-decoration-line: none"
+              >İletişim sekmesinden iletişime geçebilirsiniz.</a
+            ></strong>
+        </p>
+      </div>
+    </section>
+
+        <!-- Footer Kısmı -->
+    <footer>&#9400; Soft Knowledge tüm hakları saklıdır.</footer>
+  </body>
+</html>
