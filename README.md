@@ -1,65 +1,67 @@
-# 📚 Soft Knowledge | Rehber Web Sitesi
+# 📚 Soft Knowledge | Guide Website
 
-* Bu proje, Patika Frontend Bootcamp'i için oluşturulan **Hafta-1 / Odev-3 | HTML ve CSS** projesidir.
-* **HTML** ve **CSS** kullanılarak geliştirilmiş bir rehber web sitesidir.
-* Semantic HTML etiketleri ve modern web tasarım prensipleri kullanılmıştır.
+[🇹🇷 Türkçe versiyon için tıklayın](./README.tr.md)
+
+* This project is created for Patika Frontend Bootcamp as **Week-1 / Assignment-3 | HTML and CSS** project.
+* A guide website developed using **HTML** and **CSS**.
+* Semantic HTML tags and modern web design principles are used.
 
 ---
 
-## :computer: Kullanım
+## :computer: Usage
 
-1. Projeyi klonlayın
+1. Clone the project
 ```bash
 git clone https://github.com/tunahanyasar/guide-website-html.git
 ```
 
-2. Proje klasörüne gidin
+2. Navigate to the project directory
 ```bash
 cd guide-website-html
 ```
 
-3. `index.html` dosyasını bir web tarayıcısında açın
-   - Dosyaya çift tıklayarak
-   - Veya bir local server kullanarak (örn: Live Server VS Code eklentisi)
+3. Open `index.html` in a web browser
+   - By double-clicking the file
+   - Or using a local server (e.g., VS Code Live Server extension)
 
 ---
 
-## 📜 Proje İçeriği
+## 📜 Project Content
 
-### 1. Marka ve Tasarım
-- İlk önce kendi markamı oluşturdum ve **chatGPT** yardımıyla logomu tasarladım ve **favicon** olarak kullandım.
-- *Anasayfa, Hakkında, İletişim ve Servisler* adında 4 **HTML** sayfası oluşturdum.
-  - Sayfaları oluştururken **Semantik Etiketleri** olabildiğince düzgün kullanmayı amaçladım.
+### 1. Brand and Design
+- First, I created my own brand and designed my logo with the help of **chatGPT** and used it as a **favicon**.
+- Created 4 **HTML** pages named *Home, About, Contact, and Services*.
+  - Aimed to use **Semantic Tags** as properly as possible while creating the pages.
 
-### 2. Sayfa Yapıları
+### 2. Page Structures
 
-#### Anasayfa
-- Her sayfada bulunacak **header** ve **footer** oluşturdum. 
-  - **header** kısmına oluşturduğum logoyu ve markamın adını yazdım.
-  - **header** içine **nav** ekleyerek **li ve a** etiketleri ile sayfalar arasında geçişi sağlayacak bölmeyi oluşturdum.
-- İki tane **div** oluşturarak genel bilgi verdim ve görsel ekledim.
+#### Home Page
+- Created **header** and **footer** that will be present on every page.
+  - Added my logo and brand name to the **header** section.
+  - Added **nav** inside the **header** to create navigation between pages using **li and a** tags.
+- Created two **div** elements to provide general information and add images.
 
-#### Hakkında
-- Üç tane paragraf oluşturarak hakkımdaki bölümünü doldurdum.
+#### About
+- Created three paragraphs to fill the about section.
 
-#### Servisler
-- **section** oluşturarak içerisine üç ayrı paragraf ekledim.
-- **aside** kısmına **nav** ile ileride ekleyeceğim projeleri şablon olarak yerleştirdim.
+#### Services
+- Created a **section** and added three separate paragraphs inside.
+- Added a template for future projects in the **aside** section using **nav**.
 
-#### İletişim
-- **section** oluşturarak içerisine kullanıcının iletişime geçebilmesi için **form** yerleştirdim.
-- **aside** kısmına ise diğer iletişim yollarını ekledim.
+#### Contact
+- Created a **section** and added a **form** for users to get in touch.
+- Added other contact methods in the **aside** section.
 
 ---
 
-## 💡 Kullanılan Teknolojiler
+## 💡 Technologies Used
 
 **HTML:**
 * Semantic Tags
-* Meta Etiketleri
+* Meta Tags
 * Favicon
-* Form Elemanları
-* Navigation Yapısı
+* Form Elements
+* Navigation Structure
 
 **CSS:**
 * Layout Management
@@ -69,45 +71,44 @@ cd guide-website-html
 
 ---
 
-## 📸 Sayfa Çıktıları
+## 📸 Page Outputs
 
-### Anasayfa
-![Anasayfa](./img/anasayfa.png)
+### Home Page
+![Home Page](./img/anasayfa.png)
 
-### Hakkında
-![Hakkında](./img/hakkında.png)
+### About
+![About](./img/hakkında.png)
 
-### Servisler
-![Serivsler](./img/servisler.png)
+### Services
+![Services](./img/servisler.png)
 
-### İletişim
-![İletişim](./img/iletisim.png)
-
----
-
-## 🎯 Proje Hedefleri
-
-1. **Kullanıcı Deneyimi**
-   - Kolay navigasyon
-   - Responsive tasarım
-   - Modern görünüm
-
-2. **İçerik Organizasyonu**
-   - Düzenli bilgi hiyerarşisi
-   - Mantıksal sayfa yapısı
-   - Kolay erişilebilir içerik
-
-3. **Teknik Başarılar**
-   - Semantic HTML kullanımı
-   - CSS ile modern tasarım
-   - Form ve iletişim entegrasyonu
+### Contact
+![Contact](./img/iletisim.png)
 
 ---
 
-## 📞 İletişim
+## 🎯 Project Goals
+
+1. **User Experience**
+   - Easy navigation
+   - Responsive design
+   - Modern appearance
+
+2. **Content Organization**
+   - Organized information hierarchy
+   - Logical page structure
+   - Easily accessible content
+
+3. **Technical Achievements**
+   - Semantic HTML usage
+   - Modern design with CSS
+   - Form and contact integration
+
+---
+
+## 📞 Contact
 
 [Tunahan Yaşar](https://github.com/tunahanyasar)
 
 * GitHub: [@tunahanyasar](https://github.com/tunahanyasar)
-* LinkedIn: [Tunahan Yaşar](https://www.linkedin.com/in/tunahan-yasar/)
-
+* LinkedIn: [Tunahan Yaşar](https://www.linkedin.com/in/tunahan-yasar/) 
