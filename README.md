@@ -2,6 +2,8 @@
 
 [🇹🇷 Türkçe versiyon için tıklayın](./README.tr.md)
 
+*Created on: February 3, 2025*
+
 * This project is created for Patika Frontend Bootcamp as **Week-1 / Assignment-3 | HTML and CSS** project.
 * A guide website developed using **HTML** and **CSS**.
 * Semantic HTML tags and modern web design principles are used.
