@@ -10,6 +10,12 @@
 
 ---
 
+## 🌐 Canlı Demo
+
+Canlı siteyi ziyaret edin: [Soft Knowledge Rehber](https://guide-website-html.vercel.app/)
+
+---
+
 ## :computer: Kullanım
 
 1. Projeyi klonlayın
