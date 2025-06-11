@@ -1,6 +1,6 @@
 # 📚 Soft Knowledge | Guide Website
 
-[🇹🇷 Türkçe versiyon için tıklayın](./README.tr.md)
+[🇹🇷 Click for Turkish version](./README.tr.md)
 
 *Created on: February 3, 2025*
 
